@@ -1,0 +1,24 @@
+package collectionsfiles;
+
+import java.util.*;
+
+
+public class LinkedList1 {
+	public static void main(String args[]){
+	
+	List<String> al=new LinkedList<String>();  
+	  al.add("Preeti");  
+	  al.add("Avni");  
+	  al.add("Deepali");  
+	  al.add("Siddharth");  
+	  
+	  System.out.println(al.get(3));
+	  Iterator<String> itr=al.iterator();  
+	  while(itr.hasNext()){
+		  String str=itr.next().toString();
+		 // System.out.println(str);
+		  if(str.equals("Preeti"))
+			  System.out.println("HOLA "+str);
+	  }  
+	 }  
+	}  
