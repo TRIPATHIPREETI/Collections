@@ -1,0 +1,22 @@
+package collectionsfiles;
+import java.util.LinkedHashSet;
+
+/**
+ * @LinkedHashSet: Implementation of Linkedhashset to add elements, check size and check for empty status
+ */
+public class LinkedHashSet1 {
+	 
+	    public static void main(String args[]){
+	         
+	        LinkedHashSet<String> lhs = new LinkedHashSet<String>();
+	       
+	        //add elements to HashSet
+	        lhs.add("cousin");
+	        lhs.add("friend");
+	        lhs.add("relative");
+	        System.out.println(lhs);
+	        System.out.println("LinkedHashSet size: "+lhs.size());
+	        System.out.println("Is LinkedHashSet empty? : "+lhs.isEmpty());
+	    }
+	}
+	
