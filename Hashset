@@ -1,0 +1,33 @@
+package collectionsfiles;
+import java.util.*; 
+
+/**
+ * @Hashset: Implementation of HashSet
+ *
+ */
+public class Hashset1 {
+	
+	public static void main(String args[]){
+   
+   
+   
+      HashSet<String> hashset=new HashSet<String>();  
+     hashset.add("Ravi");  
+      hashset.add("Vijay");  
+      hashset.add("Ravi");  
+      hashset.add("Ajay");  
+      String temp="";
+      System.out.println("I : "+temp);
+      Iterator<String> itr=hashset.iterator();  
+      while(itr.hasNext()){
+    	String str=itr.next().toString();
+       System.out.println(str);  
+       if(str.equals("Vijay"))
+       {
+    	   temp=str;
+       }
+      }
+      System.out.println("A : "+temp);
+     }  
+    }  
+  
