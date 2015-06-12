@@ -12,10 +12,10 @@ public class Hashset1 {
    
    
       HashSet<String> hashset=new HashSet<String>();  
-     hashset.add("Ravi");  
-      hashset.add("Vijay");  
-      hashset.add("Ravi");  
-      hashset.add("Ajay");  
+     hashset.add("sonam");  
+      hashset.add("priyanka");  
+      hashset.add("deepika");  
+      hashset.add("kajol");  
       String temp="";
       System.out.println("I : "+temp);
       Iterator<String> itr=hashset.iterator();  
