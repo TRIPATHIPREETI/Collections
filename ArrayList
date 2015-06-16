@@ -1,11 +1,11 @@
-package firstProgram;
+package collectionsfiles;
  import java.util.*;  
 
 /**
  * @Arraylist: This is the program to add names of all the interns to an Arraylist to see its implementation
  *
  */
-public class ArrayList {
+public class CollectionsArrayList {
 	     public static void main(String args[]){  
        
       ArrayList<String> al=new ArrayList<String>();//creating arraylist  
@@ -20,3 +20,5 @@ public class ArrayList {
       }  
      }  
     }  
+
+
