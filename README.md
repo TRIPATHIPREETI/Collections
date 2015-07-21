@@ -10,6 +10,10 @@ import java.util.Map;
 import java.util.Scanner;
 import java.util.Set;
 
+/**
+ * This is implementation of collection classes.
+ *
+ */
 public class CollectionImplementation {
 
 	Set<String> name = new HashSet<String>();
